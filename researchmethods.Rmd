@@ -1,0 +1,129 @@
+---
+title: "Research Methods Proposal"
+author: "Saryu Onishi"
+date: "2023-04-21"
+output:
+  xaringan::moon_reader:
+    css: ['default', 'metropolis', 'metropolis-fonts','sp23.css']
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: '16:9'
+    seal: false
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+class: title-slide   
+
+# The impact of NIL on donor and sponsor revenue of U.S. college athletic departments.
+
+## HES Proposal Presentation
+
+### Saryu Onishi
+
+---
+# Background
+## Name, Image and Likeness
+-   Provide an overview of the problem that this proposal addresses.
+
+---
+# Background - continued
+## College Athletic Department Revenue
+.pull-left[
+- One bullet.
+- Another bullet.
+]
+
+.pull-right[
+<img src="revenue_sample_edit.png" alt="college athletics revenue">
+]
+
+<!-- width="90%" height="90%"-->
+---
+.pull-left[
+- One bullet.
+- Another bullet.
+]
+
+.pull-right[
+- right content
+]
+
+---
+
+# Purpose of the Study
+
+-   Explain the purpose of the study and its potential impact.
+
+--
+
+more content, after click
+
+---
+
+# Research Questions
+##List the research questions that the study will address.
+
+1. RQ1
+    - First sub-item
+    - Second sub-item
+  
+
+
+---
+# Considerations
+## Delimitations
+
+-   Specify the boundaries of the study and what it will not cover.
+
+## Limitations and Assumptions
+
+-   Discuss the limitations and assumptions that the study will have.
+
+## Operational Definitions
+
+-   Define any key terms used in the study.
+
+---
+
+# Literature
+## research problem
+
+-   Review the literature related to the research problem.
+
+## research methods
+
+-   Discuss the literature related to the research methods that will be used.
+
+## sample
+
+-   Describe the sample that will be used in the study.
+
+---
+
+# Research Designs
+
+- potential threat to validity
+
+-   Discuss potential threats to validity and how they will be addressed.
+
+---
+
+# Methods
+## data sources
+-   Describe the data sources that will be used in the study.
+
+## data collection
+
+-   Explain how the data will be collected.
+
+---
+
+# Data Analysis
+
+-   Describe the methods that will be used to analyze the data.
