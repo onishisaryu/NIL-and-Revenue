@@ -28,81 +28,114 @@ class: title-slide
 
 ---
 # Background
-## Name, Image and Likeness
--   Provide an overview of the problem that this proposal addresses.
+Provide an overview of the problem that this proposal addresses.
+## History of Name, Image and Likeness (NIL)
+Does the NCAA's amateurism rules violate antitrust laws?
+- **2014:** O'Bannon v. NCAA
+ - First major challenge to NCAA's amateurism rules
+- **2019:** Fair Pay to Play Act passed in CA
+ - Planned to take effect in 2023
+- **2021:** NCAA v. Alston
+ - Breakthrough case
 
+???
+<!--presenter notes -->
+obannon:
+- argument
+- outcome:
+
+fairpay:
+- argument: allow students to recieve sponsorship/endorsements while maintaining NCAA eligibility
+- outcome: in effect, 2023, many states followed
+
+alston:
+- argument: could lead to "pay-for-play" (NCAA) - rejected by courts
+- outcome: 
 ---
 # Background - continued
 ## College Athletic Department Revenue
 .pull-left[
-- One bullet.
-- Another bullet.
-]
-
-.pull-right[
 <img src="revenue_sample_edit.png" alt="college athletics revenue">
-]
+<small>Example of Revenue breakdown (FBS, 2022)</small>
 
-<!-- width="90%" height="90%"-->
----
-.pull-left[
-- One bullet.
-- Another bullet.
 ]
 
 .pull-right[
-- right content
+Donor and Sponsor revenue in 2022 was approximately:
+- 30% of total revenue
+- $ 2.8 Billion
 ]
 
 ---
 
 # Purpose of the Study
+Purpose of the study:
+- Investigate the impact of NIL policy changes on the sponsor and donor revenue of university athletics departments.
 
--   Explain the purpose of the study and its potential impact.
-
---
-
-more content, after click
-
+Potential impact:
+- text
 ---
 
 # Research Questions
-##List the research questions that the study will address.
 
-1. RQ1
-    - First sub-item
-    - Second sub-item
+1. Has the introduction of NIL compensation in college sports impacted the sponsorship and donation revenue streams of university athletics departments in the United States?
+
+  - How has the sponsorship and donation revenue streams of university athletics departments in the United States changes after the implementation of NIL policies?
+  - How does the changes in sponsorship and donation revenue of university athletics departments compare with the changes sponsorship and donation revenue of professional leagues?
   
-
-
 ---
 # Considerations
 ## Delimitations
+1. Data source
+2. Football Bowl Subdivision (FBS) institution
 
--   Specify the boundaries of the study and what it will not cover.
+## Limitations
+1. Secondary data
+2. COVID
 
-## Limitations and Assumptions
+## Assumptions
+1. Budget constraint exist
 
--   Discuss the limitations and assumptions that the study will have.
+???
+<!--presenter notes -->
+delimitation:
+1. recent data required, only a few resources for that
+ - avoid pay wall - even fewer
+ - keep constant - use one
+2. sponsor and donor revenue for FCS = 12% in 2022; or approx $155M
 
-## Operational Definitions
+limitation:
+1. validity (maintained by credible source)
+2. some proxy measure of sponsorship spending in pro sports can be used as control
 
--   Define any key terms used in the study.
+Assumption:
+1. zero sum game - this theory will be tested
+---
+
+# Operational Definitions
+Define any key terms used in the study.
+
+- Budget Constraint
+- Donation:
+- Endorsement:
+- NIL: 
+- Sponsorship:
+
 
 ---
 
 # Literature
 ## research problem
-
--   Review the literature related to the research problem.
+Review the literature related to the research problem.
+- impact of NIL
 
 ## research methods
-
--   Discuss the literature related to the research methods that will be used.
+Discuss the literature related to the research methods that will be used.
+- regression
 
 ## sample
-
--   Describe the sample that will be used in the study.
+Describe the sample that will be used in the study.
+-   
 
 ---
 
