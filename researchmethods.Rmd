@@ -122,10 +122,10 @@ Assumption:
 # Operational Definitions
 Define any key terms used in the study.
 
-- Donation:
-- Endorsement:
-- NIL: 
-- Sponsorship:
+- Donation:Financial gifts that an individual or organization may receive from philanthropic individuals, corporations, and foundations.
+- Endorsement:a brand aligning with an individual, rather than an organization, for marketing purposes.
+- NIL: Distinguishable characteristics of an individual such as their name, image and likeness. These are often associated with the right of publicity in the United States.
+- Sponsorship: Form of marketing in which a company or organization provides support (usually financial) to an individual, team, or event in exchange for brand exposure and other benefits associated with it.
 
 ---
 
