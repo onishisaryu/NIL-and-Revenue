@@ -513,3 +513,6 @@ hr, .title-slide h2::after, .mline h1::after {
   height: 90%;
   overflow-y: scroll;
 }
+p {
+  margin-bottom: 0.2em;
+}

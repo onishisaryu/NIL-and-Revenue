@@ -27,7 +27,6 @@ class: title-slide
 
 ---
 # Background
-Provide an overview of the problem that this proposal addresses.
 ## History of Name, Image and Likeness (NIL)
 Does the NCAA's amateurism rules violate antitrust laws?
 - **2014:** O'Bannon v. NCAA
@@ -68,96 +67,155 @@ Donor and Sponsor revenue in 2022 was approximately:
 ---
 
 # Purpose of the Study
-Purpose of the study:
-- Investigate the impact of NIL policy changes on the sponsor and donor revenue of university athletics departments.
 
-Potential impact:
-- text
+Investigate the impact of NIL policy changes on the sponsor and donor revenue of university athletics departments.
+
+Potential impacts:
+- Motivate universities to regulate NIL
+- Demonstrate the fact that college sports sponsorship is not a zero-sum game
 ---
 
 # Research Questions
 
-1. Has the introduction of NIL compensation in college sports impacted the sponsorship and donation revenue streams of university athletics departments in the United States?
+1. Has the introduction of **NIL** compensation in college sports impacted the **sponsorship and donation revenue** streams of university athletics departments in the United States?
 
-  - How has the sponsorship and donation revenue streams of university athletics departments in the United States changes after the implementation of NIL policies?
-  - How does the changes in sponsorship and donation revenue of university athletics departments compare with the changes sponsorship and donation revenue of professional leagues?
+  - How has the sponsorship and donation revenue streams of university athletics departments in the United States changed after the implementation of NIL policies?
+  - How does the changes in sponsorship and donation revenue of university athletics departments compare with the changes in sponsorship and donation revenue of professional leagues?
   
 ---
 # Considerations
+.pull-left[
 ## Delimitations
-1. Data source
-2. Football Bowl Subdivision (FBS) institution
-
+1. Football Bowl Subdivision (FBS) institution
+2. Time frame (2016 - 2022)
+ - 5 years pre-NIL, 1 year post-NIL
+ - (New data publishes in October)
+ 
 ## Limitations
-1. Secondary data
+1. NIL impacts may be difficult to detect
 2. COVID
-
+ - Similar timeline as NIL decisions
+]
+.pull-right[
 ## Assumptions
-1. Budget constraint exist
-
+1. Sponsorship spending patterns similar across pro and college sports
+2. Data is accurate
+]
 ???
-&lt;!--presenter notes --&gt;
+&lt;!--notes --&gt;
 delimitation:
 1. recent data required, only a few resources for that
  - avoid pay wall - even fewer
-2. sponsor and donor revenue for FCS = 12% in 2022; or approx $155M
+ - keep constant - use one
+2. more money in FBS (sponsor, donor, NIL)
+ - sponsor and donor revenue for FCS = 12% in 2022; or approx $155M
 
 limitation:
 1. validity (maintained by credible source)
 2. some proxy measure of sponsorship spending in pro sports can be used as control
 
 Assumption:
-1. zero sum game - this theory will be tested
+1. Accuracy of data
 ---
 
 # Operational Definitions
 Define any key terms used in the study.
 
-- Budget Constraint
 - Donation:
 - Endorsement:
 - NIL: 
 - Sponsorship:
 
-
 ---
 
 # Literature
-## research problem
-Review the literature related to the research problem.
-- impact of NIL
+## Athletic Department Revenue
+1. Total revenue is growing due increasing allocated revenue and revenue from television right, ticket, sponsors and donors.
+ - McEvoy et al., 2013
+ - Jablonski et al., 2022
 
-## research methods
-Discuss the literature related to the research methods that will be used.
-- regression
+2. Sponsors and donors may redirect spending towards student athletes to reach fans directly
+ - Dees et al., 2021
+ - Petersen &amp; Judge, 2021
+ 
+---
+# Literature
+## Impact of NIL on Revenue
+1. Many student athletes can capitalize on their NIL
+ - Kunkel et al., 2021
+ - Cocco &amp; Moorman, 2022
 
-## sample
-Describe the sample that will be used in the study.
--   
+2. Limited research, many speculative
+ - Dees et al., 2021
+ - Petersen &amp; Judge, 2021
+
+ 
+---
+# Literature
+## Research methods
+Jablonski, T., Jensen, J. A., Popp, N., &amp; Bates, B. (2022). Identifying and Analyzing Determinants of Allocated Revenue to NCAA FBS Athletic Departments. *Journal of Issues in Intercollegiate Athletics*, 15, 506-531.
+- OLS multiple linear regression model to predict Allocated Revenue
+- Data collected from multiple secondary sources, including knightnewhousedata.org
+
+
+Current study will be focused on the `\(\beta_n\)` instead of the outcome variable as Jablonski et al. did in their paper.
+
+???
+Data includes:
+- Grad rates, 
+- Ticket sales,
+- Director cup points,
+- conference membership
 
 ---
+# Research Design
+Causal-comparative research design
+- How NIL impacted sponsor and donor revenue of college athletic departments
+ - 2016~2020 data = pre-NIL, 2021~2022 data = post-NIL
 
-# Research Designs
-
-- potential threat to validity
-
--   Discuss potential threats to validity and how they will be addressed.
+###Threat to validity:
+- History: 
+  - COVID is a confounding variable
+- Sample selection
+  - limited generalizability
+???
+Policy change in june - 2021 categorization is open for debate
 
 ---
 
 # Methods
-## data sources
--   Describe the data sources that will be used in the study.
-
-## data collection
-
--   Explain how the data will be collected.
+## Data sources
+- knightnewhousedata.org
+ - Maintained by Syracuse University
+- Other sources TBD
+ - Data Triangulation to ensure validity
 
 ---
+# Methods
+## Data Collection
+Independent Variables:
 
-# Data Analysis
+| Variable | Sources | Description |
+|----------|----------|----------|
+| NIL | Various | Status of NIL policy. Pre (0) or post (1) |
+| Performance | Various | Athletic performance in previous year |
+| COVID | Various | Number of reported COVID related hospitalization in the US |
+| Group | NCAA | Group of 5 (0) or Power 5 (1) |
 
--   Describe the methods that will be used to analyze the data.
+Dependent Variable:
+
+| Variable | Sources | Description |
+|----------|----------|----------|
+| `\(\Delta Revenue_y\)` | knightnewhousedata.org | `\(Revenue_{y+1} - Revenue_y\)` |
+
+---
+# Methods
+## Data Analysis
+Multiple regression model will be used to calculate the `\(\beta\)` coefficient of the NIl variable and the other control variables:
+`$$\Delta Revenue = \beta_0 + \beta_1 NIL + \beta_2 Performance + \beta_4 COVID + \epsilon$$`
+Additional analysis taking conference membership nto account
+`$$\Delta Revenue = \beta_0 + \beta_1 NIL + \beta_2 Performance + \beta_4 COVID + \beta_5 Group + \epsilon$$`
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
